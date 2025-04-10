@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Cards</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="card-slider">
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="profile-image">
+                        <img src="/Images/priya.jpg" alt="Priyanshu Keshri">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Priyanshu Keshri</h2>
+                    <p>Creative Web designer passionate about captivating visuals.</p>
+                    <button onclick="openModal('Priyanshu Keshri')">About Me</button>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="profile-image">
+                        <img src="/Images/Nim.jpg" alt="Nilesh Mishra">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Nilesh Mishra</h2>
+                    <p>Hacker turning ideas into digital dreams.</p>
+                    <button onclick="openModal('Nilesh Mishra')">About Me</button>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="profile-image">
+                        <img src="/Images/Demo.jpg" alt="Priyanshu Mishra">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Priyanshu Mishra</h2>
+                    <p>Creative designer bringing concepts to life.</p>
+                    <button onclick="openModal('Priyanshu Mishra')">About Me</button>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="profile-image">
+                        <img src="/Images/Nis.png" alt="Nishant Pandey">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Nishant Pandey</h2>
+                    <p>Design enthusiast with a sharp eye for detail.</p>
+                    <button onclick="openModal('Nishant Pandey')">About Me</button>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="profile-image">
+                        <img src="/Images/Raj.jpg" alt="Rajiv Kumar">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Rajiv Kumar</h2>
+                    <p>Web designer dedicated to stunning digital work.</p>
+                    <button onclick="openModal('Rajiv Kumar')">About Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p>Connect with me:</p>
+            <div class="social-icons">
+                <a href="#\" target="_blank">🔗 LinkedIn</a>
+                <a href="#" target="_blank">🐦 Twitter</a>
+                <a href="#" target="_blank">📷 Instagram</a>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
